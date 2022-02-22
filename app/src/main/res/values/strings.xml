@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BTL_Android</string>
+
+    <string-array name="functions">
+        <item>Giờ Thế Giới</item>
+        <item>Bấm Giờ</item>
+        <item>Đếm Ngược</item>
+    </string-array>
+</resources>
