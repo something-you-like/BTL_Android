@@ -117,10 +117,10 @@ public class GlobalTimeActivity extends AppCompatActivity {
                 @Override
                 public void onDismissed(Snackbar transientBottomBar, int event) {
                     super.onDismissed(transientBottomBar, event);
-
+                    System.out.println(item.getId());
                     if (!(event == DISMISS_EVENT_ACTION)) {
                         GTDatabaseClass db = new GTDatabaseClass(GlobalTimeActivity.this);
-                        db.deleteSingleTimezone(item.getId());
+                        db.deleteSingleTimezone(item.getArea());
                     }
                 }
             });

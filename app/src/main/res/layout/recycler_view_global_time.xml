@@ -42,8 +42,9 @@
 
             <TextView
                 android:id="@+id/timezoneArea"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="180dp"
+                android:gravity="center"
+                android:layout_height="55dp"
                 android:layout_marginEnd="10dp"
                 android:text="TextView"
                 android:textColor="#F7E0A9"

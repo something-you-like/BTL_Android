@@ -71,11 +71,11 @@ public class GTDatabaseClass extends SQLiteOpenHelper {
         database.execSQL(deleteQuery);
     }
 
-    public void deleteSingleTimezone(String id) // XÓA MỘT MÚI GIỜ
+    public void deleteSingleTimezone(String timezone) // XÓA MỘT MÚI GIỜ
     {
         SQLiteDatabase database = this.getWritableDatabase();
 
-        long result = database.delete(tableName, "id=?", new String[]{id});
+        long result = database.delete(tableName, "timezone=?", new String[]{timezone});
 
         if (result == -1)
         {
