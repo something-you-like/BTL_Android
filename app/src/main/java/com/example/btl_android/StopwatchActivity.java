@@ -20,7 +20,9 @@ public class StopwatchActivity extends AppCompatActivity {
 
     Button btnReset,btnStart;
     TextView txtTimer;
+
     boolean timerStarted = false;
+
     Timer timer;
     TimerTask timerTask;
     Double time = 0.0;
